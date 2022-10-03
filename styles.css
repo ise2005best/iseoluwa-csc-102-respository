@@ -1,0 +1,268 @@
+/* HTML ELEMENTS */
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5{
+  font-weight: bold;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 4rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 2% 8%;
+}
+
+/* Page */
+.colored-page{
+  background-color: #357DED;
+  color: #fff;
+}
+.white-page{
+  background-color: #fff;   
+  color: #000;
+}
+
+.transform{
+    transform: rotate(25deg);
+    width: 40%;
+    height: 95%;
+
+} 
+#title{
+  text-align: left;
+}
+/* Title */
+.row-desc{
+  padding-left: 15%;
+}
+/* Shoe Description */
+.shoe-img{
+    width: 100%;
+    height: 100%;
+}
+.shoe-name{
+   padding: 50px 0 30px 0;
+   font-size: 3rem;
+}
+.shoe-descr{
+  font-weight: small; 
+  color: #8f8f8f;
+  text-align: right;
+}
+#shoe-description{
+    padding: 100px;
+}
+.shoe-box{
+    padding-left: 50px;
+}
+.product-desc{
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding-bottom: 100px;
+}
+
+.shoe-img2{
+    padding-left: 150px;
+}
+.shoe-desc{
+    font-size: 1rem; 
+    font-weight: bold;
+    padding-left: 130px;
+}
+.size-box{
+    padding-left: 5rem;
+}
+.price-box{
+    padding: 30px 250px 30px 0px;
+}
+/* Review */
+
+.review-pic1{
+  width: 20%;
+  margin: 20px;
+}
+.rev-desc1{
+ line-height: 1.5;
+ font-size: 3rem;
+}
+.carousel-item{
+  padding: 7% 10%;
+}
+.review-name{
+  color: #000;
+}
+/* Nav bar style */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+/* Call to action */
+#cta{
+  background-color: #B9E6FF;
+  color: #000;
+  font-family: 'Montserrat' "sans-serrif";
+  padding: 150px 0 50px 0
+}
+.cta-desc{
+  font-weight: 5rem;
+  font-weight: 900;
+}
+#footer{
+  padding: 7% 15%;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
+.discount{
+  position: relative;
+  padding-right: 50px;
+}
+/* Download buttons*/
+.download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
+/* Code for dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .dropdown > label,
+  .dropdown > a[role="button"] {
+    display: inline-block;
+    padding: 6px 15px;
+    color: #333;
+    line-height: 1.5em;
+    text-decoration: none;
+    border: 1px solid #8c8c8c;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  
+  .dropdown > label:hover,
+  .dropdown > a[role="button"]:hover,
+  .dropdown > a[role="button"]:focus {
+    border-color: #333;
+  }
+  
+  .dropdown > label:after,
+  .dropdown > a[role="button"]:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  
+  .dropdown > ul {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    left: -100vw;
+    top: calc(1.5em + 14px);
+    border: 1px solid #8c8c8c;
+    background: #fff;
+    padding: 6px 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+  }
+  
+  .dropdown > ul a {
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown > ul a:hover,
+  .dropdown > ul a:focus {
+    background: #ececec;
+  }
+  
+  .dropdown > input[type="checkbox"]:checked ~ ul,
+  .dropdown > ul:target {
+    left: 0;
+  }
+  
+  .dropdown > [type="checkbox"]:checked + label:after,
+  .dropdown > ul:target ~ a:after {
+    content: "\f0d8";
+  }
+  
+  .dropdown a.close {
+    display: none;
+  }
+  
+  .dropdown > ul:target ~ a.close {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-indent: -100vw;
+    z-index: 1000;
+  }
+  
+  
+  /*
+   Demo purposes only
+  */
+  
+ */ *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  
+  .dropdown + h2 {
+    margin-top: 60px;
+}
+/* media query(for a phone size */
+ @media (max-width: 1028px){
+  .transform{
+    position: static;
+    transform: rotate(0);
+    padding-left: 100px;
+  }
+  #title{
+    text-align: center;
+  }
+  
+}
